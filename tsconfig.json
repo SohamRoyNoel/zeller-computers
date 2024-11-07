@@ -8,6 +8,6 @@
     "outDir": "./dist",           // Specifies the output directory for compiled JS
     "rootDir": "./src"            // Specifies the root directory for source files
   },
-  "include": ["src/**/*.ts"],     // Include all TypeScript files in src/
-  "exclude": ["node_modules"]     // Exclude node_modules
+  "include": ["src/**/*.ts", "src/test/index.test.ts"],     // Include all TypeScript files in src/
+  "exclude": ["node_modules", "dist"]    // Exclude node_modules
 }

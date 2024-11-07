@@ -2,7 +2,10 @@
 - ```cd zeller-computers```
 - ```npm i```
 - ```npm run build```
-- ```npm start``` 
+- ```npm start```
+
+## How to run test cases
+- ```npm run test```
 
 ## How to use
 - Please enter SKU IDs
@@ -11,5 +14,4 @@
 ## Things to improve
 - configure pricing dynamically from console.
 - SKU and pricing mapping can be taken from some other source.
-- missing unit test case
 - pushing .env file as it's mock implementation of how we can configure pricing and discounts dynamically. (although it's a bad practice.)

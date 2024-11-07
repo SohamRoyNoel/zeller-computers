@@ -2,9 +2,8 @@ import { Checkout } from "./checkout";
 import { pricingRules } from "./pricingRule";
 import * as readline from 'readline';
 
-const co = new Checkout(pricingRules);
-
-const main = () => {
+export const main = () => {
+  const co = new Checkout(pricingRules);
   const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
@@ -26,4 +25,6 @@ const main = () => {
   scanNext();
 };
 
-main();
+if (require.main === module) {
+  main();
+}
